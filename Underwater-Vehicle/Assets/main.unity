@@ -1718,6 +1718,7 @@ GameObject:
   - component: {fileID: 1087516571}
   - component: {fileID: 1087516570}
   - component: {fileID: 1087516569}
+  - component: {fileID: 1087516572}
   m_Layer: 5
   m_Name: ButtonHidden
   m_TagString: Untagged
@@ -1782,7 +1783,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1087516570}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1087516572}
+        m_MethodName: onClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1087516570
@@ -1818,6 +1830,22 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1087516567}
+--- !u!114 &1087516572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1087516567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5540ccec286e5043bbaf63da7db59fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockMain: {fileID: 1526881589}
+  block1: {fileID: 430515189}
+  block2: {fileID: 1852985669}
+  block3: {fileID: 277096973}
+  text: {fileID: 2032851988}
 --- !u!1 &1157784495
 GameObject:
   m_ObjectHideFlags: 0
@@ -3263,6 +3291,7 @@ GameObject:
   - component: {fileID: 1833771663}
   - component: {fileID: 1833771662}
   - component: {fileID: 1833771661}
+  - component: {fileID: 1833771664}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -3315,6 +3344,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1833771664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1833771660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 190ee6db392dfc942aadde335966be44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  depth: {fileID: 754172492}
+  speed: {fileID: 255942759}
+  leftSpeed: {fileID: 1215978478}
+  rightSpeed: {fileID: 471689543}
+  leftPressure: {fileID: 1176650282}
+  rightPressure: {fileID: 1706151618}
+  shuibengSys: {fileID: 2080615279}
+  yeyaSysTemp: {fileID: 1633808907}
+  dianjiTemp: {fileID: 1479064292}
+  shuibengOutPressure: {fileID: 1009736702}
+  shuibengYeyaFlux: {fileID: 1355181537}
+  shuibengYeyaPressure: {fileID: 566864260}
 --- !u!1 &1852985669
 GameObject:
   m_ObjectHideFlags: 0
