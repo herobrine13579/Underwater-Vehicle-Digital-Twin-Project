@@ -1,10 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj" RefactoringSettings.EnableRefactorings="True">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\HiddenData.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\GlobalVar.cs">
     <Files>
-      <File FileName="C:\Users\GSH\Desktop\ShowAndHide\Assets\Script\SphereCtrl.cs" Line="5" Column="25" />
-      <File FileName="Assets\Script\GlobalVar.cs" Line="8" Column="2" />
-      <File FileName="Assets\Script\HiddenData.cs" Line="20" Column="5" />
+      <File FileName="Assets\Script\GlobalVar.cs" Line="9" Column="2" />
+      <File FileName="Assets\Script\HiddenData.cs" Line="19" Column="24" />
+      <File FileName="Assets\Script\UpdateInfo.cs" Line="31" Column="31" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
